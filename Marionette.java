@@ -6,7 +6,7 @@ import org.testng.annotations.*;
 import static org.junit.Assert.assertThat;
 import static org.hamcrest.CoreMatchers.containsString;
 
-public class NewTest {		
+public class Marionette {		
 /*
 After the Firefox 47 version you have use a driver Gekco, the Marionette.
 Do you need follow nexts steps
