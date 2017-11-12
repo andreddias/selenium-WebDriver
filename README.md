@@ -7,7 +7,7 @@ During automation, we are often required to press enter, control, tab, arrow key
 
 We can use Keys enum for different non-text keys and pass them to the sendKeys method. Bellow has an entry for each of the non-text key present in a keyboard.
 
-Keyboard's Key	  Keys enum's value
+Keyboard's Key	  Keys enum's value /n
 Arrow Key - Down	Keys.ARROW_DOWN
 Arrow Key - Up	  Keys.ARROW_LEFT
 Arrow Key - Left	Keys.ARROW_RIGHT
