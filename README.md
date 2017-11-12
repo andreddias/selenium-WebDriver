@@ -8,33 +8,44 @@ During automation, we are often required to press enter, control, tab, arrow key
 Keyboard's Key	  Keys enum's value 
 
 Arrow Key - Down	Keys.ARROW_DOWN
+
 Arrow Key - Up	  Keys.ARROW_LEFT
+
 Arrow Key - Left	Keys.ARROW_RIGHT
+
 Arrow Key - Right	Keys.ARROW_UP
+
 Backspace	        Keys.BACK_SPACE
+
 Ctrl Key	        Keys.CONTROL
+
 Alt key	          Keys.ALT
+
 DELETE	          Keys.DELETE
+
 Enter Key	        Keys.ENTER
+
 Shift Key	        Keys.SHIFT
+
 Spacebar	        Keys.SPACE
+
 Tab Key	          Keys.TAB
+
 Equals Key	      Keys.EQUALS
+
 Esc Key	          Keys.ESCAPE
+
 Home Key	        Keys.HOME
+
 Insert Key	      Keys.INSERT
+
 PgUp Key	        Keys.PAGE_UP
+
 PgDn Key	        Keys.PAGE_DOWN
+
 Function Key F1	  Keys.F1
-Function Key F2	  Keys.F2
-Function Key F3	  Keys.F3
-Function Key F4	  Keys.F4
-Function Key F5	  Keys.F5
-Function Key F6	  Keys.F6
-Function Key F7	  Keys.F7
-Function Key F8	  Keys.F8
-Function Key F9	  Keys.F9
-Function Key F10	Keys.F10
-Function Key F11	Keys.F11
+.
+.
+.
 Function Key F12	Keys.F12
 
