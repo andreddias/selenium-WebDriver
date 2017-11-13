@@ -18,9 +18,9 @@ Example: driver.findElement(By.id("Value")).sendKeys(Keys.ENTER);
 # Driver Gekco
 After the Firefox 47 version you have use a driver Gekco, the Marionette.
 
-[Marionette.java](Marionette.md)
+[Marionette.java](Marionette)
 
 # Select Item
 Select an element from a arraylist
 
-[SelectItem](SelectItem.md)
+[SelectItem](SelectItem)
