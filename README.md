@@ -2,7 +2,7 @@
 This help page references the selenium webdriver has codes on a variety of links
 
 # How to use interface for mapping in Selenium
-This example has two files
+To declare a class that implements an interface, you include an implements clause in the class declaration. Your class can implement more than one interface, so the implements keyword is followed by a comma-separated list of the interfaces implemented by the class. Why not to use interface for mapping? This example has two files
 
 The test class [Util.java](https://github.com/andreddias/selenium-WebDriver/blob/master/Util.java)
 
