@@ -1,4 +1,4 @@
-# Press keyboard keys in selenium
+Press keyboard keys in selenium
 
 During automation, we are often required to press enter, control, tab, arrow keys, function keys and other non-text keys as well from keyboard.
 
