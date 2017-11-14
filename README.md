@@ -1,5 +1,5 @@
-# selenium-WebDriver 
-Página de refeferência para o selenium webdriver 
+# Selenium WebDriver 
+Página de refeferência para o selenium webdriver com as principais dúvidas levantadas no grupo Selenium Brasil
 
 # Como usar Interface para parametrização de dados
 Interface é um recurso da orientação a objeto utilizado em Java que define ações que devem ser obrigatoriamente executadas, mas que cada classe pode executar de forma diferente. Interfaces contém valores constantes ou assinaturas de métodos que devem ser implementados dentro de uma classe. Por que não usar para parametrização dos dados? Segue um exemplo em dois arquivos
