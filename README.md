@@ -13,14 +13,14 @@ Durante a automação, muitas vezes somos obrigados a pressionar enter, control,
 
 Exemplo: driver.findElement(By.id("Value")).sendKeys(Keys.ENTER);
 
-[Keyboard keys](https://github.com/andreddias/selenium-WebDriver/blob/master/Keyboard%20keys)
+mais teclas de atalho em: [Keyboard keys](https://github.com/andreddias/selenium-WebDriver/blob/master/Keyboard%20keys)
 
 # Marionette
 Depois da versão 47 do Firefox é necessário a engine Gekco, o Marionette. As execuções de teste com o Firefox e Selenium devem utilizar este novo driver.
 
-[Marionette.java](https://github.com/andreddias/selenium-WebDriver/blob/master/Marionette.java)
+Exemplo em: [Marionette.java](https://github.com/andreddias/selenium-WebDriver/blob/master/Marionette.java)
 
 # Select Item
 Selecionar um elemento de uma arraylist
 
-[SelectItem](SelectItem)
+Exemplo em: [SelectItem](SelectItem)
