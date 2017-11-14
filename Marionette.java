@@ -18,7 +18,7 @@ Upload your test scripts
 */
   @BeforeMethod
 	public void beforeTest() {	
-		System.setProperty("webdriver.gecko.driver", "/home/andredias/eclipse-workspace/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "/home/andredias/Download/geckodriver"); //Download Patch
 		DesiredCapabilities dc = DesiredCapabilities.firefox();
 		dc.setCapability("marionette", true);
 		driver = new FirefoxDriver(dc);		
