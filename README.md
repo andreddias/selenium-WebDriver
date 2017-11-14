@@ -1,26 +1,26 @@
-# selenium-WebDriver code help
-This help page references the selenium webdriver has codes on a variety of links
+# selenium-WebDriver 
+Página de refeferência para o selenium webdriver 
 
-# How to use interface for mapping in Selenium
-To declare a class that implements an interface, you include an implements clause in the class declaration. Your class can implement more than one interface, so the implements keyword is followed by a comma-separated list of the interfaces implemented by the class. Why not to use interface for mapping? This example has two files
+# Como usar Interface para parametrização de dados para automação de teste
+Interface é um recurso da orientação a objeto utilizado em Java que define ações que devem ser obrigatoriamente executadas, mas que cada classe pode executar de forma diferente. Interfaces contém valores constantes ou assinaturas de métodos que devem ser implementados dentro de uma classe. Por que não usar para parametrização dos dados? Segue um exemplo em dois arquivos
 
-The test class [Util.java](https://github.com/andreddias/selenium-WebDriver/blob/master/Util.java)
+Classe de teste [Util.java](https://github.com/andreddias/selenium-WebDriver/blob/master/Util.java)
 
-Mapping [UtilMap.java](https://github.com/andreddias/selenium-WebDriver/blob/master/UtilMap.java)
+Parametrização [UtilMap.java](https://github.com/andreddias/selenium-WebDriver/blob/master/UtilMap.java)
 
-# Press keyboard keys in selenium
-During automation, we are often required to press enter, control, tab, arrow keys, function keys and other non-text keys as well from keyboard.
+# Pressione as teclas do teclado no selenium
+Durante a automação, muitas vezes somos obrigados a pressionar enter, control, tab, setas e outras teclas que não sejam de texto, além do teclado.
 
-Example: driver.findElement(By.id("Value")).sendKeys(Keys.ENTER);
+Examplo: driver.findElement(By.id("Value")).sendKeys(Keys.ENTER);
 
 [Keyboard keys](https://github.com/andreddias/selenium-WebDriver/blob/master/Keyboard%20keys)
 
 # Driver Gekco
-After the Firefox 47 version you have use a driver Gekco, the Marionette.
+Depois da versão 47 do Firefox é necessário a engine Gekco, o Marionette. As execuções de teste com o Firefox e Selenium devem utilizar este novo driver.
 
 [Marionette.java](https://github.com/andreddias/selenium-WebDriver/blob/master/Marionette.java)
 
 # Select Item
-Select an element from a arraylist
+Selecionar um elemento de uma arraylist
 
 [SelectItem](SelectItem)
