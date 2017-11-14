@@ -13,7 +13,7 @@ Durante a automação, muitas vezes somos obrigados a pressionar enter, control,
 
 Exemplo: driver.findElement(By.id("Value")).sendKeys(Keys.ENTER);
 
-mais teclas de atalho em: [Keyboard keys](https://github.com/andreddias/selenium-WebDriver/blob/master/Keyboard%20keys)
+Outras teclas de atalho em: [Keyboard keys](https://github.com/andreddias/selenium-WebDriver/blob/master/Keyboard%20keys)
 
 # Marionette
 Depois da versão 47 do Firefox é necessário a engine Gekco, o Marionette. As execuções de teste com o Firefox e Selenium devem utilizar este novo driver.
