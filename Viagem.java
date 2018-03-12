@@ -26,13 +26,13 @@ public class Viagem {
 
 	@BeforeMethod
 	public void beforeTest() {	
-		System.setProperty("webdriver.gecko.driver", "/home/andredias/eclipse-workspace/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "/caminho/eclipse-workspace/geckodriver");
 		DesiredCapabilities dc = DesiredCapabilities.firefox();
 		dc.setCapability("marionette", true);
 		driver = new FirefoxDriver(dc);		
 		wait = new WebDriverWait(driver, 10);
 	}
-
+//O link desses sites de viagem é trás as informações de busca no link como a data de ida e volta,o número de passageiros adultos/crianças com mais de 12 anos/ crianças com menos de 12 anos
 	@Test
 	public void ViajaNet() throws InterruptedException, SQLException, FileNotFoundException, IOException, AWTException{
 		driver.get("https://www.viajanet.com.br/busca/voos-resultados#/RIO/POA/RT/15-07-2018/21-07-2018/-/-/-/2/1/0/-/-/-/-");
@@ -48,13 +48,13 @@ public class Viagem {
 		String site = "Decolar";
 		BestPrice(site, idResultado);
 	}
-
+//Aguarda o resultado aparecer na tela e guarda o resultado
 	public static void BestPrice(String site, String resultado) {
 		wait.until(ExpectedConditions.elementToBeClickable(By.className(resultado)));
 		String melhoresTarifas = driver.findElement(By.className(resultado)).getText();
 		PrintToTxt(site, melhoresTarifas);
 	}
-
+//Joga o resultado em um txt
 	public static void PrintToTxt(String site, String conteudo) {
 		String idForTxtFile = new SimpleDateFormat("dd.MM.yyyy_HH.mm.ss").format(new Date());
 		File file = new File(site + idForTxtFile);
