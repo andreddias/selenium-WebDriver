@@ -26,4 +26,6 @@ Selecionar um elemento de uma arraylist
 Exemplo em: [SelectItem](SelectItem)
 
 # Viagem
-Faça uma pesquisa em seu site de busca de passagens preferidos, copie e cole a url nesse código
+Faça uma pesquisa do melhor preço nos sites de passagem aérea, copie e cole a url nesse código que retorna os valores em um arquivo txt.
+
+Exemplo em: [Viagem.java](https://github.com/andreddias/selenium-WebDriver/blob/master/Viagem.java)
