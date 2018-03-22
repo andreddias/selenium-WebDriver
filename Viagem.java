@@ -32,7 +32,7 @@ public class Viagem {
 		driver = new FirefoxDriver(dc);		
 		wait = new WebDriverWait(driver, 10);
 	}
-//O link desses sites de viagem é trás as informações de busca no link como a data de ida e volta,o número de passageiros adultos/crianças com mais de 12 anos/ crianças com menos de 12 anos
+//O link desses sites trazem informações como a data de ida e volta,o número de passageiros quanto são adultos/crianças com mais de 12 anos/ crianças com menos de 12 anos
 	@Test
 	public void ViajaNet() throws InterruptedException, SQLException, FileNotFoundException, IOException, AWTException{
 		driver.get("https://www.viajanet.com.br/busca/voos-resultados#/RIO/POA/RT/15-07-2018/21-07-2018/-/-/-/2/1/0/-/-/-/-");
