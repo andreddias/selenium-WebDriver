@@ -23,7 +23,7 @@ Exemplo em: [Marionette.java](https://github.com/andreddias/selenium-WebDriver/b
 # Select Item
 Selecionar um elemento de uma arraylist
 
-Exemplo em: [SelectItem](SelectItem)
+Exemplo em: [SelectItem.java](https://github.com/andreddias/selenium-WebDriver/blob/master/SelectItem.java)
 
 # Viagem
 Faça uma pesquisa do melhor preço nos sites de passagem aérea, copie e cole a url nesse código que retorna os valores em um arquivo txt.
