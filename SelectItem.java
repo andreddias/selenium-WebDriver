@@ -1,6 +1,4 @@
-
-Procurando e selecionando um elemento de uma combo
-
+//Procurando e selecionando um elemento de uma combo
 public static void selecionarItemDaCombo(WebElement elemSelecao, String opcaoDesejada){
 		int posicaoOpcaoNaLista = 0; 
 		int contador = 0;
