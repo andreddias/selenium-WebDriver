@@ -1,5 +1,3 @@
-package exemplo;
-
 import java.awt.AWTException;
 import java.io.File;
 import java.io.FileNotFoundException;
